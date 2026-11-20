@@ -1,5 +1,5 @@
 def add(a, b):
-    return a + b;
+    pass
 
 def subtract(a, b):
     pass
@@ -30,4 +30,5 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> 731e946231627d72d0d46e3245629e1d1f15963f
+
+
