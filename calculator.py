@@ -2,13 +2,15 @@ def add(a, b):
     pass
 
 def subtract(a, b):
-    pass
+    return a - b;
 
 def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    pass
+    if b == 0:
+        return "Cannot divide by zero"
+    return a / b
 
 def main():
     print("Simple CLI Calculator")
@@ -30,5 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
